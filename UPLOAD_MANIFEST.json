@@ -1,0 +1,1577 @@
+{
+  "schema": 1,
+  "repository": "Berserk7777777/DSP-Fashion",
+  "private": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 176,
+      "sha256": "483759ba85bd1255113e887991176feb1e6776d7aa1c3c1d329a515941b62e92"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1259,
+      "sha256": "0fd8c3e8c862d9762dc45a0cd39cabec1360fffe538c6b6abdf4448a44087947"
+    },
+    {
+      "path": "DiFashion-main/DiFashion/config.yaml",
+      "bytes": 301,
+      "sha256": "de4a41ad5bed9a6880b9a658c777557e5b884fb31bfbf0ce65c9cd86f28552c1"
+    },
+    {
+      "path": "DiFashion-main/DiFashion/data_utils.py",
+      "bytes": 5762,
+      "sha256": "975aa8423a53ea02c9f89d8cfbe18444b89d80f4ef6971ac218ee0a9fd2c68cb"
+    },
+    {
+      "path": "DiFashion-main/DiFashion/inf4eval.py",
+      "bytes": 47621,
+      "sha256": "85bf112561b7fac50473c3f3f128b58a45310a12e9dde486d376f365b2a6f742"
+    },
+    {
+      "path": "DiFashion-main/DiFashion/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "DiFashion-main/DiFashion/models/difashion.py",
+      "bytes": 42104,
+      "sha256": "ff322d2ad0cc50f0a4d33cf3e1eb96fd6022019f79f00d78fed167ae7eaf77cf"
+    },
+    {
+      "path": "DiFashion-main/DiFashion/run_eta0.1.sh",
+      "bytes": 294,
+      "sha256": "5928fcd2c3df41033ab55d8b86bd39c5045a1ba0c02cce2ffff2d744abe1a73c"
+    },
+    {
+      "path": "DiFashion-main/DiFashion/run_inf4eval.sh",
+      "bytes": 321,
+      "sha256": "89ddec282e5bc90ef2902ddea7bc828af64edc1595b20933bb45bcad9e7e1d32"
+    },
+    {
+      "path": "DiFashion-main/DiFashion/train.py",
+      "bytes": 36970,
+      "sha256": "7138addccbf9635d506cb635c9728ce6977ce606a78fc6440872a9544cad8051"
+    },
+    {
+      "path": "DiFashion-main/EXPERIMENTS.md",
+      "bytes": 17761,
+      "sha256": "517097c7695c991380b294790aff91a5ba8dcd7d1878f22c6b762316b9eb45cd"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/compatibility_evaluator/compatibility_net.py",
+      "bytes": 7373,
+      "sha256": "e53474652b74504e8b37e4ffeaf85ee76761a7f43a8d0bbf36879c8e295c0e4a"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/eval_utils.py",
+      "bytes": 29571,
+      "sha256": "2e0faa806289cfb0415a6f9ad5a4f29e40172522f913641b49477d277758759f"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/evaluate_fitb.py",
+      "bytes": 19911,
+      "sha256": "7fc3cd3557d9b5efff8ca4775378bc7c1b78512f96deb4b9f31af020965e133e"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/evaluate_gor.py",
+      "bytes": 19238,
+      "sha256": "456f44862bc2e8f1d27ddf076916e143ad76a3fe38892c19f02e08eadd87c93f"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/evaluate_grounding_fitb.py",
+      "bytes": 19838,
+      "sha256": "f094f13385056dcf70ffb3891574ca90adc766e7b71b31e81336f8766b50658b"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/evaluate_grounding_gor.py",
+      "bytes": 20405,
+      "sha256": "12844d92fe2594882e115ef64e9f69be046095000ee85311326cad97f53805a6"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/extract_hist_embs.py",
+      "bytes": 6090,
+      "sha256": "1ef83cb926734ab858d9e7a748f876640abdc4e48a9535c060258ebeb4291df6"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/extract_hist_embs.sh",
+      "bytes": 119,
+      "sha256": "e9ebfaab4e566948e69ee8236f9dbc75cb149bcb322f1770e1ca7a3db861dca7"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/run_eval_fitb.sh",
+      "bytes": 226,
+      "sha256": "1d1b9ea283a1a1e4aefe0c0971c8bc33e88ed7e63dca6a23184a14432107a8ce"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/run_eval_gor.sh",
+      "bytes": 228,
+      "sha256": "68a4e8587b4f579dd9f083befe90de33c9fa3c92572e30c1a6f9c32a0811bd9f"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/run_eval_grounding_fitb.sh",
+      "bytes": 261,
+      "sha256": "3a438573ad732c177a8a0f76ae50ebfe394615b1f5e8187aad7ffcca1a570cfd"
+    },
+    {
+      "path": "DiFashion-main/Evaluation/run_eval_grounding_gor.sh",
+      "bytes": 259,
+      "sha256": "fd5841e421bdc37ee5edb1d472c16350115ac9f75a88ffb407546d73abfc3e56"
+    },
+    {
+      "path": "DiFashion-main/README.md",
+      "bytes": 8724,
+      "sha256": "001948c71d62edc31f47e396798ff658b5d9378caf9dd98c0945799b427a393e"
+    },
+    {
+      "path": "DiFashion-main/figures/difashion_overview.png",
+      "bytes": 641503,
+      "sha256": "b38ba622d8809580ce5e929c2a3fffa4fcfad6a7a5a142eec7f60c439db9e06b"
+    },
+    {
+      "path": "DiFashion-main/figures/fitb_examples.png",
+      "bytes": 2505800,
+      "sha256": "a8d409177645c40ada2baf206ffe01c1c3e9fef3aeaf9d943077b3d746c95771"
+    },
+    {
+      "path": "DiFashion-main/figures/gor_examples.png",
+      "bytes": 3274156,
+      "sha256": "c747836fd7396e56d449ed1058c74e66b4b09456111bc4b3bfec0d2daa150548"
+    },
+    {
+      "path": "DiFashion-main/tools/aggregate_offline_fitb_groups.py",
+      "bytes": 3907,
+      "sha256": "b7ff8068c0a4924617749c3e1a453df5bb04fe147cf98440f8210ff109cf9d33"
+    },
+    {
+      "path": "DiFashion-main/tools/analyze_seed_sweep.py",
+      "bytes": 4976,
+      "sha256": "3371f09d2b6e4d689c380ac99f11c5cc2d254fbe4dcaeb5c1eafb9a6efb63694"
+    },
+    {
+      "path": "DiFashion-main/tools/append_standard_gt_sim.py",
+      "bytes": 7772,
+      "sha256": "0a1d14de33393cb7a83501dcc1fbbaaa97177ba7b004067d1675f21d287d1a96"
+    },
+    {
+      "path": "DiFashion-main/tools/check_difashion_assets.py",
+      "bytes": 2575,
+      "sha256": "84f47bdd6132676b31f285cbe2b44e6088644e02fa6baaeac75a704a700f4f2f"
+    },
+    {
+      "path": "DiFashion-main/tools/collect_ifashion_fitb_candidates.py",
+      "bytes": 34628,
+      "sha256": "73605e920eca0dc5fcac00796935aab1a992d0d6813990b697c50a3b5fa4e45d"
+    },
+    {
+      "path": "DiFashion-main/tools/collect_ifashion_gor_candidates.py",
+      "bytes": 21809,
+      "sha256": "8b2f8468cf5df6c459d46e63208b9321bd3408dee23bdc1ff9617e5da97185d0"
+    },
+    {
+      "path": "DiFashion-main/tools/compute_fitb_oracle_regret.py",
+      "bytes": 23809,
+      "sha256": "0ccd689d531a935c9624b0617c55a4f5bbc2b34d51d46e6d2064a99893273bc1"
+    },
+    {
+      "path": "DiFashion-main/tools/evaluate_fitb_offline_native.py",
+      "bytes": 33446,
+      "sha256": "33a7057b4a3646e6a739a091e7b5c4f8c88dcd7c8976d71a570377e4362737e1"
+    },
+    {
+      "path": "DiFashion-main/tools/offline_fitb_select_and_evaluate.py",
+      "bytes": 61600,
+      "sha256": "8528ee87c487830f2be783d67776212a83f490e6661b1e071321c9c0573f5491"
+    },
+    {
+      "path": "DiFashion-main/tools/replay_fitb_seed_nodes.py",
+      "bytes": 14418,
+      "sha256": "6068a23805170f95f0181631136e99fa86216a6e912b6894561acccb20c36407"
+    },
+    {
+      "path": "DiFashion-main/tools/run_native_fitb_three_rewards.ps1",
+      "bytes": 1343,
+      "sha256": "94d36eac781f5fb01aec253a7de70ba42f65c410235811d47281b09e29a4c3fa"
+    },
+    {
+      "path": "DiFashion-main/tools/summarize_fitb_personal_regret_native.py",
+      "bytes": 17440,
+      "sha256": "f27241bb7132f604264cc7195e777f6f6925821e9255e5c16019154084703168"
+    },
+    {
+      "path": "DualFashion-main/.gitignore",
+      "bytes": 237,
+      "sha256": "685d347c3a2e657f1bdd21d125a0c3a9c280b563e4964d3e104b5a97f2f965a9"
+    },
+    {
+      "path": "DualFashion-main/Inference_ifashion_GOR.py",
+      "bytes": 32336,
+      "sha256": "418d71eb33a34ef66e867cefdfedd9161da54caf5c91120c798b1644ada31fac"
+    },
+    {
+      "path": "DualFashion-main/Inference_ifashion_PFITB.py",
+      "bytes": 45343,
+      "sha256": "5c904e23cff556b8f148ccbd9d07723c126d140bb268597bca1877e94a4c0319"
+    },
+    {
+      "path": "DualFashion-main/README.md",
+      "bytes": 5731,
+      "sha256": "f36a7b8e67504b90510950c2dcabd735d81b48d6cf7b6e7ea1e975a0f7ce0ea6"
+    },
+    {
+      "path": "DualFashion-main/analyze_bon_psp_compatibility.py",
+      "bytes": 9570,
+      "sha256": "f19e32256dd91ba77267c8707308c7a4adc10079922b31416521bd9abac08192"
+    },
+    {
+      "path": "DualFashion-main/analyze_psp_step_semantics.py",
+      "bytes": 9105,
+      "sha256": "8df224c887914805f93f780fbf8ac61feddba4a85660567b61e7c695cadc0790"
+    },
+    {
+      "path": "DualFashion-main/configs/dual_diff_pretrain.py",
+      "bytes": 2014,
+      "sha256": "c19068fa19f068c5f5ac19bf646e081e4512698cc3ffc8517c013aae5db42f03"
+    },
+    {
+      "path": "DualFashion-main/configs/dual_diff_sft.py",
+      "bytes": 1699,
+      "sha256": "7e9201fe830a3a46c8d277dc0809a8aeecf748933afae2818b893ad87e3f2fe5"
+    },
+    {
+      "path": "DualFashion-main/configs/stage1_config.py",
+      "bytes": 1820,
+      "sha256": "8ee9eff91d5181369413ab2c222c1f05b87551f4dced317b34d58f1ff2930af9"
+    },
+    {
+      "path": "DualFashion-main/configs/stage2_config_ifashion.py",
+      "bytes": 1505,
+      "sha256": "221afc31842b7e1760ab19dfc725d255b8e6b7a334b99df25d69342aa57eb953"
+    },
+    {
+      "path": "DualFashion-main/configs/stage3_config.py",
+      "bytes": 826,
+      "sha256": "10213e057639ae4f5c43d83a1e5d21b3905a3d5061e83714049f1324014979b4"
+    },
+    {
+      "path": "DualFashion-main/custom_dataset/__init__.py",
+      "bytes": 84,
+      "sha256": "ba2544446f8ebcb26b49ce02477c4d9c616d58177a3eb48b5c4746c688c0a935"
+    },
+    {
+      "path": "DualFashion-main/custom_dataset/stage2_ifashion_data.py",
+      "bytes": 1366,
+      "sha256": "6ad898464819d4a38c6d57dbde39b9ec6e1eb787f25f742f45b620d8ff5d46ec"
+    },
+    {
+      "path": "DualFashion-main/eval/compatibility_evaluator/compatibility_net.py",
+      "bytes": 7373,
+      "sha256": "e53474652b74504e8b37e4ffeaf85ee76761a7f43a8d0bbf36879c8e295c0e4a"
+    },
+    {
+      "path": "DualFashion-main/eval_utils.py",
+      "bytes": 30974,
+      "sha256": "be54dcc0a9f8e79cafa41c04c1526c9ed5f7d866078f00020a1caebe84e29aba"
+    },
+    {
+      "path": "DualFashion-main/evaluate_PFITB.py",
+      "bytes": 45558,
+      "sha256": "523ecc8d0d6497cbe1b09ba26172a7a7afaa03229c21c06a7115500e5fd6ad76"
+    },
+    {
+      "path": "DualFashion-main/evaluate_best_results_gt_similarity.py",
+      "bytes": 10833,
+      "sha256": "2417c802f1a0102a028ade3aaec25685b72f273800875a095204413038ef4e00"
+    },
+    {
+      "path": "DualFashion-main/evaluate_gt_attribute_alignment.py",
+      "bytes": 22976,
+      "sha256": "568a40f243aca3e28db57a91e7e16747d23f03f00638f671b5237133c86d1c4d"
+    },
+    {
+      "path": "DualFashion-main/make_bon_gallery.py",
+      "bytes": 2332,
+      "sha256": "97e3c7171dc412b3f1d31b2c0abf81abb8e7083833294f06b8e97235aab3a753"
+    },
+    {
+      "path": "DualFashion-main/pack_psp_for_official_eval.py",
+      "bytes": 6211,
+      "sha256": "4d41c99f2106d84ad2720b7563aac15160de0b656b979d1fdd639e0329d22b98"
+    },
+    {
+      "path": "DualFashion-main/requirements.txt",
+      "bytes": 3103,
+      "sha256": "3dd8e7bca9558cf1c431145661cf6eeecb0f75b0578cec7add9804345511ddd7"
+    },
+    {
+      "path": "DualFashion-main/run_bon36_ifashion.ps1",
+      "bytes": 2128,
+      "sha256": "65546c1e421bb06fa7278456bdb34a95b1b3e5f099efe855feca1db9e22a3b9e"
+    },
+    {
+      "path": "DualFashion-main/run_evaluate_pfitb_ifashion.ps1",
+      "bytes": 1138,
+      "sha256": "c07d673e9e6e10bc23e2371b93dde7198acc78686d779d6747b2abd63f4c08fb"
+    },
+    {
+      "path": "DualFashion-main/run_ifashion_fitb_comp.ps1",
+      "bytes": 6096,
+      "sha256": "7ca510622e7c35a68b209ef3eabddec084d86f247f73dfdfd84d01ea3b85eb23"
+    },
+    {
+      "path": "DualFashion-main/run_ifashion_fitb_comp_eval.ps1",
+      "bytes": 3802,
+      "sha256": "7f29c5ab1d4368d6916e44c0102aacdacc3c41a96c5ef767ba51ac3adbba6d84"
+    },
+    {
+      "path": "DualFashion-main/run_ifashion_fitb_offline_cache.ps1",
+      "bytes": 1803,
+      "sha256": "cc2d844599381648948bbca41cbd7fd193fa8faa675b6359d496fd2ada42b1b3"
+    },
+    {
+      "path": "DualFashion-main/run_ifashion_fitb_timestep200_cache.ps1",
+      "bytes": 1830,
+      "sha256": "1a66e491f97bd262471331440387675dc9871b3fe1a97a080a687f14b0a38618"
+    },
+    {
+      "path": "DualFashion-main/run_ifashion_gor_greedy_personal.py",
+      "bytes": 37233,
+      "sha256": "502585eefb3100f4198bf128f0fbb30ffb91358ac32e98ff9b230e6968bb76ff"
+    },
+    {
+      "path": "DualFashion-main/run_ifashion_gor_offline_cache.py",
+      "bytes": 17400,
+      "sha256": "d91c0c2392a015caf900f1626b0a0f481872987c771723f442123338b2d5c577"
+    },
+    {
+      "path": "DualFashion-main/run_ifashion_offline_cache.py",
+      "bytes": 23244,
+      "sha256": "71f475c18eef3d7963518aed9f77b26341a360763116bcdf5e0d81f9d68ce628"
+    },
+    {
+      "path": "DualFashion-main/run_pfitb_reproduction_ifashion.ps1",
+      "bytes": 1666,
+      "sha256": "42e3ffd322e87b73e0ba7b8847309a12e0c2e8527b7f737706cc513f851d5395"
+    },
+    {
+      "path": "DualFashion-main/run_psp_ifashion_smoke.ps1",
+      "bytes": 1771,
+      "sha256": "db64c5f8b4ca32cb40c52957c473c6e89ba41b086e74621fb710d7855087397c"
+    },
+    {
+      "path": "DualFashion-main/run_psp_ifashion_smoke.py",
+      "bytes": 50526,
+      "sha256": "7c7951c19708f2605a283f721917d0683009ef697fd06bb33d04978b1050c363"
+    },
+    {
+      "path": "DualFashion-main/score_bon_compatibility.py",
+      "bytes": 17935,
+      "sha256": "6ac3b8ffe7e810d04270f4d18c5a1cc77c68de2a2cc441d33a95d9c1d4f4b042"
+    },
+    {
+      "path": "DualFashion-main/score_difashion_compatibility.py",
+      "bytes": 6756,
+      "sha256": "f452fff5cdfd81e6cdce870d1b999c0cd996d78c1e8d7a9b546b91224c3ff277"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/dual_diff_pipeline.py",
+      "bytes": 29686,
+      "sha256": "985ff07af8e20e160a09359b542a63e565047bdf5c0a711cbcdadd3c81edd492"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/sd3_model.py",
+      "bytes": 9807,
+      "sha256": "d5abb06e6b4c98db44efd24c2394cd574ab571f38c68721b0d618f8e1ff67fae"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/sd3_training_utils.py",
+      "bytes": 1526,
+      "sha256": "41ccf523102b32b8e42bf5b1d4aa373b55f4b183d56bd3f27050dabb951c8b19"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/sd_loss_utils.py",
+      "bytes": 12870,
+      "sha256": "576e395b9d37b2e494f0bd9f0ab5c388787730aaa55d89d7da06fa1cab48bec0"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/stage1_pipeline.py",
+      "bytes": 30116,
+      "sha256": "54a3ffea585edca0924d78d3f76dc118b2bfc523611a03d16ea93fe3ce59869f"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/stage2_pipeline.py",
+      "bytes": 30393,
+      "sha256": "54f5045b01d9cfc0f50935984b17ef6cb4ae9acb87fb1e075246e2edfe2b5272"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/stage2_sd3_loss_utils_v5.py",
+      "bytes": 15743,
+      "sha256": "507a6be4f1c87dc5350ddd38baaa82ced69bb30b8b779d334fd015cc1c4c83d7"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/stage2_sd3_loss_utils_v6.py",
+      "bytes": 15743,
+      "sha256": "507a6be4f1c87dc5350ddd38baaa82ced69bb30b8b779d334fd015cc1c4c83d7"
+    },
+    {
+      "path": "DualFashion-main/sd3_modules/stage3_sd3_loss_utils.py",
+      "bytes": 7029,
+      "sha256": "a33f0152f70b104f340fa412dc8d875c69d38cd21795d87f5b41df5326e8b930"
+    },
+    {
+      "path": "DualFashion-main/select_offline_psp_compatibility.py",
+      "bytes": 27159,
+      "sha256": "239e76ff845ecac5e981091c566f512eec8c0ba87b0717665f80a803d44a2015"
+    },
+    {
+      "path": "DualFashion-main/stage1_train_fashion_pairs.py",
+      "bytes": 37043,
+      "sha256": "cec62104f4f24468a814c8af7d477e332081a9dc0f9da83fd155c0c44b4bf7da"
+    },
+    {
+      "path": "DualFashion-main/stage2_train_ifashion_lrem.py",
+      "bytes": 45852,
+      "sha256": "8c9e9234ead05bc373d528ea2a1d7e1d5cc49776d2bbe8d7889401b423eb3bdf"
+    },
+    {
+      "path": "DualFashion-main/stage3_train_data_augmentation.py",
+      "bytes": 10009,
+      "sha256": "10daa9bd422b004855bd73b7e62d2c11b099d237071da309f81efd33a094dd79"
+    },
+    {
+      "path": "DualFashion-main/summarize_official_eval.py",
+      "bytes": 7164,
+      "sha256": "3faa7b83d3888930a561ae05eec5538067a8743e001368595120c2553de2e621"
+    },
+    {
+      "path": "FashionDPO-main/README.md",
+      "bytes": 4133,
+      "sha256": "f020e4c7bdd9d5cb272d910d916590b45d6464611c12c3894a6ca71e213671fd"
+    },
+    {
+      "path": "FashionDPO-main/evaluation/VBPR.py",
+      "bytes": 2597,
+      "sha256": "9f9177f6a25818cf2fb9af630b7aa6610196d18a399d26f747b7eba4b4c25d66"
+    },
+    {
+      "path": "FashionDPO-main/evaluation/analyse.py",
+      "bytes": 15839,
+      "sha256": "8d463290d62625d762b23cdbc792fc72135c21b79460cfdad68a6af4a1f2a204"
+    },
+    {
+      "path": "FashionDPO-main/evaluation/data_utils.py",
+      "bytes": 6408,
+      "sha256": "760d9774c216f7830766aa672cabd20cf3ee3e7ca54a8d5032bc95e76275f2ab"
+    },
+    {
+      "path": "FashionDPO-main/evaluation/eval_utils.py",
+      "bytes": 35424,
+      "sha256": "fa53c4010b287dc626a39611d95d5a122f809a2fd303bbc6363dfc5bb29b49bc"
+    },
+    {
+      "path": "FashionDPO-main/evaluation/evaluate_fitb.py",
+      "bytes": 20911,
+      "sha256": "a87a185f860d6d8a2c123cab4d666c493432e0ed80d0d353456a72270cf7ba8f"
+    },
+    {
+      "path": "FashionDPO-main/evaluation/multiple_evaluate.py",
+      "bytes": 35386,
+      "sha256": "ed740c00b8f5a4dc786b04d6c089398ae402fd620c68213a343931b614625dba"
+    },
+    {
+      "path": "FashionDPO-main/evaluation/train_VBPR.py",
+      "bytes": 29218,
+      "sha256": "a2a37cb91fb31bea468ab280091ae50b8b5521beea0fb497126b67bbb9beb77d"
+    },
+    {
+      "path": "FashionDPO-main/fashiondpo/config.yaml",
+      "bytes": 642,
+      "sha256": "6603ce7c06578e296e81dfce916662ba0d7092891f3dac98577d0bcff6a53750"
+    },
+    {
+      "path": "FashionDPO-main/fashiondpo/data_utils.py",
+      "bytes": 5762,
+      "sha256": "975aa8423a53ea02c9f89d8cfbe18444b89d80f4ef6971ac218ee0a9fd2c68cb"
+    },
+    {
+      "path": "FashionDPO-main/fashiondpo/finetune.py",
+      "bytes": 55554,
+      "sha256": "a1e0c8d226f3b24dd2db0adaede206761dc6d1e4440c61daac733f30cdeeb75f"
+    },
+    {
+      "path": "FashionDPO-main/fashiondpo/inf4eval.py",
+      "bytes": 40027,
+      "sha256": "60cee3d2531dade76c3ba8f72047e397f2d5a64002c82f17e86ed50ff640b02c"
+    },
+    {
+      "path": "FashionDPO-main/fashiondpo/sample.py",
+      "bytes": 48482,
+      "sha256": "3d1400df5b27b3bc49a06576bd91fa28a5a9664a282e5829eb9d7a2b26a9ba9a"
+    },
+    {
+      "path": "FashionDPO-main/fashiondpo_environment.yml",
+      "bytes": 2570,
+      "sha256": "5c9b537d6160a8f1dc2b8fb701a8b4b9556ee4f028ed5153798e97bd32e5d05a"
+    },
+    {
+      "path": "FashionDPO-main/figure/model.png",
+      "bytes": 970389,
+      "sha256": "9c3b6603ddd436616ddcb6925b49c7185d7dba557380e4fbb0da832f32246de9"
+    },
+    {
+      "path": "FashionDPO-main/figure/model_result.png",
+      "bytes": 1641187,
+      "sha256": "289463267aad2abff1894bb1e044d5c3606663680d8d108d1c0fb48b2ae6b6a1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3006,
+      "sha256": "0b7e035e65b5615e6080d608acbd3f0772c82347509e7a70bdb55765d0bbcd71"
+    },
+    {
+      "path": "SERVER_DEPLOYMENT.md",
+      "bytes": 5297,
+      "sha256": "17696e2bd511ab610570b0ebe1b10f16acaba437d59a0ae1ab95d844579e5cca"
+    },
+    {
+      "path": "environments/difashion-core.txt",
+      "bytes": 383,
+      "sha256": "e8d271ceaf12cfb37f0f9e0115144f2bd629e26b32a414e77feac4377568581a"
+    },
+    {
+      "path": "environments/dualfashion-core.txt",
+      "bytes": 385,
+      "sha256": "a39a42c4a3eddc1177ab1d3daae9c06e28fc5667667201e55e92055d2bfccb02"
+    },
+    {
+      "path": "fashion_psp/README.md",
+      "bytes": 8846,
+      "sha256": "c075db46915186e1d00d5d37010d51372a6297664369161ec46a68019cb494e9"
+    },
+    {
+      "path": "fashion_psp/__init__.py",
+      "bytes": 318,
+      "sha256": "aa123b7f25f60dd4ad620cb14e9be1b34fd4f4addde9aa0a7b6e90fc271e97ce"
+    },
+    {
+      "path": "fashion_psp/artifacts/__init__.py",
+      "bytes": 292,
+      "sha256": "2c5c2bec104f8a6787d6d1439329d5e6e82111f875dec6ae3f1dc9391f090d92"
+    },
+    {
+      "path": "fashion_psp/artifacts/io.py",
+      "bytes": 1089,
+      "sha256": "efaa628ef23175eecf0068b4b8cbdb6606c7461277e3319479b10e7983aabf45"
+    },
+    {
+      "path": "fashion_psp/artifacts/schema.py",
+      "bytes": 1221,
+      "sha256": "6b7e19d8113e9d1f216997946194b8a137a08724a9510f75b66a076161ebb111"
+    },
+    {
+      "path": "fashion_psp/backbones/README.md",
+      "bytes": 1623,
+      "sha256": "09e38b91553688fade7e3cd35dff86897ac83c477a82cff1aca05333fdfa78c0"
+    },
+    {
+      "path": "fashion_psp/backbones/__init__.py",
+      "bytes": 367,
+      "sha256": "c440839b0c3abef8b7a1264453b13ff3ef117e59abf590cb2243d12fc18fc7dc"
+    },
+    {
+      "path": "fashion_psp/backbones/base.py",
+      "bytes": 484,
+      "sha256": "f411a9fb3b5c021d6ba5d013b7bffc248ab0dd745ca2c04e2abbbf7861ab6c65"
+    },
+    {
+      "path": "fashion_psp/backbones/difashion.py",
+      "bytes": 735,
+      "sha256": "bdc9ae2bddc1ce3137f6c3de1e2b2e524dc7a27a1962cf63c5a6312f659c756e"
+    },
+    {
+      "path": "fashion_psp/backbones/dualfashion.py",
+      "bytes": 514,
+      "sha256": "b97fc7f5fe94766cd114b2e97f7f5fb8956ee1e6d78a81e2dfd6fbe4990340a7"
+    },
+    {
+      "path": "fashion_psp/backbones/fashiondpo.py",
+      "bytes": 491,
+      "sha256": "a8c4702653f1f5153ae193ad67c220675cd918618348c412dd13fb1535d961a4"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/README.md",
+      "bytes": 4917,
+      "sha256": "aa45679da64c0971ae7f803ee79014e61599d263627d2c02725b6ba77d41f0f2"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/images/algorithm.png",
+      "bytes": 166898,
+      "sha256": "24faa2266e6bc2c1b2718d7f61516905cbd39f314bbdb09fda10dbb40c4e0fa7"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/images/better_unicorns.png",
+      "bytes": 2823907,
+      "sha256": "8172dad107b17f7da10084f0c8f069594cd4ac8c5f24e4d0668eecad1d214112"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/images/fk_steering_prompt_adherence.png",
+      "bytes": 2230190,
+      "sha256": "af1cddc627f721325d268ad47493b474ba3c6d18a426111991f2e71c023c3780"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/images/gary_marcus.png",
+      "bytes": 1221993,
+      "sha256": "2b74daf5cf65df5854094fc7e137088eecd8b4fbf33dc789d0934305bec51d42"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/images/gen_eval_scaling.png",
+      "bytes": 440049,
+      "sha256": "03c18af7da62054dc0c156d9047b6765bdb4617e9b3b3556b4e594648e95a333"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/images/method.png",
+      "bytes": 542698,
+      "sha256": "1bd534c81f6657398aaa1dd0f1f8b36a1195d4e7ddfd27f95e24dc14445bcd71"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/images/particle_scaling.png",
+      "bytes": 428212,
+      "sha256": "df5ee8d84d224d974002e3588a183ad5186af164da179f9c70f18ca55e983ed4"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/images/steering.png",
+      "bytes": 8762,
+      "sha256": "71f350740439a90c65f645b43697eb3cb6af7df0f9666617c035169f31b76f74"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/images/toxicity.png",
+      "bytes": 752112,
+      "sha256": "91e6a5418bf576b1c65e119d9d2495a86c326efd126fcd21887cb4b64fa10549"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/requirements.txt",
+      "bytes": 1444,
+      "sha256": "4a1cf1a97ccc94be5130b1c98c6fe1dc08daf020d09459eda9b988649446e32b"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/collect_image_reward_signal.py",
+      "bytes": 30459,
+      "sha256": "bb3bed6c8adab6b4a8156dc93aa97c525c6b8f784ecea67bfaf009d04b58235b"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/collect_image_reward_signal_multiprompts.py",
+      "bytes": 27893,
+      "sha256": "2262f5ebde556d7d03ffac85db96d3f8b96d6a24b4bd84027cd26cefc6a7e7d4"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fkd_diffusers/__init__.py",
+      "bytes": 29,
+      "sha256": "42da664c125731f0bb0ffa5b004f0bc6f66c42452dfeb6bc1cb8ea39a33f9e19"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fkd_diffusers/fkd_class.py",
+      "bytes": 17000,
+      "sha256": "6a181e6437c5fd476b8de5493089c474c253e1ca0f21fcfb60e123a37505002f"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fkd_diffusers/fkd_pipeline_sd.py",
+      "bytes": 31064,
+      "sha256": "04a6da4426e0dc1d9fdb3cd4c8894e02f6e1a01e4d447a1090f9917841b66a3c"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fkd_diffusers/fkd_pipeline_sd3.py",
+      "bytes": 8137,
+      "sha256": "bb11b9dbced3b5bacc5aab33cb967d295513c236cda95483bb5c0b2d42bde5e2"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fkd_diffusers/fkd_pipeline_sdxl.py",
+      "bytes": 50118,
+      "sha256": "1ac7119e4bf1e023578cfc91c673f5ee34d782cb1c2536da34354561d0fe3685"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fkd_diffusers/image_reward_utils.py",
+      "bytes": 13232,
+      "sha256": "5a01ee0fc906575feea803788faf609ea2e7105bfe722e9598c5f96c63a5a576"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fkd_diffusers/llm_grading.py",
+      "bytes": 5671,
+      "sha256": "3e74786c83e6162d61e45045d9cc097acd16ef0a2c70dd3ba09018f13ec7e6c3"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fkd_diffusers/rewards.py",
+      "bytes": 8872,
+      "sha256": "cf36fb5935aa0c5f749f2efb1c8bcbd8a4bea00091836bc93f97c011560c0ca4"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fkd_diffusers/smc_utils.py",
+      "bytes": 4059,
+      "sha256": "d66dc0be2938f5578d5d2d9f51e5b52124637778d2cf3e672d6ed59f962b4fdb"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/fks_utils.py",
+      "bytes": 6198,
+      "sha256": "19891c0c49d865e767125d910a21f47d9f1d7f441c946ed383c1ff356b586fa2"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/launch.sh",
+      "bytes": 223,
+      "sha256": "31afb9e57a83922df695d5a3eb0fb77dbd64bc325030d7b248d5e0b8d3c483d0"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/launch_eval_bestofn_runs.py",
+      "bytes": 10612,
+      "sha256": "3ac698b6f69018aacb15f5266c6a0854628b97839df41005a434645ef7af2c46"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/launch_eval_multiturn_runs.py",
+      "bytes": 29219,
+      "sha256": "cbd4593519c9cb6f14193db951b1a09f4a5fe35fbc6f7d7766f509d9aefa9c54"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/launch_eval_runs.py",
+      "bytes": 12481,
+      "sha256": "bbbd3ac2a4e8ea83c89452e024df1d6165a0579f9d353fb092d3f54d49abf135"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/launch_eval_runs_sd35.py",
+      "bytes": 30141,
+      "sha256": "3d5f7759d97d1618792b7dc2c279389d9b3970fd469fc2dd479af5910676784f"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/mixed_fk_pruning_search.py",
+      "bytes": 19347,
+      "sha256": "fe11c68144c6ee7fa20098270042e1793583b7483bbca5767f235b563fafd53f"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/prompt_files/benchmark_ir.json",
+      "bytes": 14559,
+      "sha256": "e12ca8423c7978f00b0bf2af2832e9458c8c1149b9e7b45bac965f57b0300c8a"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/prompt_files/evaluation_metadata_long.jsonl",
+      "bytes": 397873,
+      "sha256": "09472cc9c24e225417b1d5df27e688e5f2a0fcac9ec772f33d9debe4e5d49f27"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/prompt_files/geneval_metadata.jsonl",
+      "bytes": 85209,
+      "sha256": "5c48e0813e812e3c373fa5c8ed07a8f0a483be30272b4427b0559c8048e67c13"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/prompt_files/geneval_metadata_multiprompts.json",
+      "bytes": 4534381,
+      "sha256": "61d2d21bb1fe2b712f1284deb5364bcaa789da62a6fc63abed643295e3365e01"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/prompt_files/geneval_multiprompts_chatgpt_template.txt",
+      "bytes": 2176,
+      "sha256": "c79c6c3a63b6368afb5b9f616edc2d31ce3448a8eee4fe1b5906837e202bae5b"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/prompt_files/test_ir.json",
+      "bytes": 391364,
+      "sha256": "3381897271e4ec863a459f233de7cc7147c18f2dac092bd612b3649a92569b51"
+    },
+    {
+      "path": "fashion_psp/baselines/Fk-Diffusion-Steering/text_to_image/run_psp.py",
+      "bytes": 21161,
+      "sha256": "0b28f9babfbcd695bc9fcc58a96206d90a18bb3927e9cda57066e1b4706b2af0"
+    },
+    {
+      "path": "fashion_psp/baselines/README.md",
+      "bytes": 752,
+      "sha256": "0475e081e6dc1a21e8c1a238d527d8ec0f6900ef67f97cefa4d3291eb43fe1d3"
+    },
+    {
+      "path": "fashion_psp/baselines/__init__.py",
+      "bytes": 81,
+      "sha256": "76b4504bea08ec79850ab27139a252afe950d52d71de79a73207ac8302d6e231"
+    },
+    {
+      "path": "fashion_psp/baselines/fk_steering/README.md",
+      "bytes": 6927,
+      "sha256": "e023bde788810ebb3a502f7aebde46cd4698adb062aef95474e5999a6b0e7208"
+    },
+    {
+      "path": "fashion_psp/baselines/fk_steering/__init__.py",
+      "bytes": 277,
+      "sha256": "b452a38ec564dc97ef7790eccebc68ee975a2e01b4dbfef83058a5eb00035d93"
+    },
+    {
+      "path": "fashion_psp/baselines/fk_steering/config.py",
+      "bytes": 1229,
+      "sha256": "f8a09549e9633dde1991aab0ad34cb3b68025e1a7ed463cd4682544c93411434"
+    },
+    {
+      "path": "fashion_psp/baselines/fk_steering/policy.py",
+      "bytes": 3183,
+      "sha256": "add400354b54234537ebf36c617dfe2fbdc98c652dc3b95a0ed6cdfdf6ada0f7"
+    },
+    {
+      "path": "fashion_psp/baselines/fk_steering/run_difashion_fitb_fk.py",
+      "bytes": 23148,
+      "sha256": "bceaa54ea118ae2a804b874cab3da09f111dbdcc711921b946de8b08e6259d01"
+    },
+    {
+      "path": "fashion_psp/baselines/fk_steering/run_difashion_gor_fk.py",
+      "bytes": 29017,
+      "sha256": "c0d3230db35c1341b1a7449b7577c167361c67f74788a413ded688be5ef437f1"
+    },
+    {
+      "path": "fashion_psp/benchmarks/benchmark_dualfashion_parallel_search.py",
+      "bytes": 22033,
+      "sha256": "212f4f39b27105d585b2273afddab11f90a569c53094831c8786bdfc224bbde1"
+    },
+    {
+      "path": "fashion_psp/benchmarks/run_dualfashion_parallel_search.ps1",
+      "bytes": 1297,
+      "sha256": "bce242e257ff61ef6c83020a7d6991024814285517b677a336c6572fdc3c0986"
+    },
+    {
+      "path": "fashion_psp/conditioning/__init__.py",
+      "bytes": 76,
+      "sha256": "020a73610690fda83cb064ddd606cf4a0cc76e7d375dfb0f2168b4d7d813c382"
+    },
+    {
+      "path": "fashion_psp/conditioning/preference_rewrite.py",
+      "bytes": 2618,
+      "sha256": "4cd4467529990051e21c6a1f121631bbb88e3daaf566ed3d85179c7ac5311c8c"
+    },
+    {
+      "path": "fashion_psp/config.py",
+      "bytes": 3745,
+      "sha256": "0a51ba186e5f528efbfdf0348120d161f4bbf72c614351d1d5df00df3d034eea"
+    },
+    {
+      "path": "fashion_psp/contracts.py",
+      "bytes": 1364,
+      "sha256": "630650722bda47c77a1179e2fbd7f222402ecf94b2bb527989d0f544ce4b22db"
+    },
+    {
+      "path": "fashion_psp/evaluation/DIFASHION_FITB_ONLINE_METRICS.md",
+      "bytes": 2188,
+      "sha256": "8f4f7c7168822fb134e3222706ad5dcdba54465b3f50e7fefa134cfe02ee27c4"
+    },
+    {
+      "path": "fashion_psp/evaluation/OFFLINE_FITB_POOL_METRICS.md",
+      "bytes": 7679,
+      "sha256": "e3db281899ddd350ae4a06c0d0e2fe243b21beacb1d7ae8db40f200e71157271"
+    },
+    {
+      "path": "fashion_psp/evaluation/README.md",
+      "bytes": 4255,
+      "sha256": "de0cba041f33ea14746f6accc9217027318a95984f9df4b1bedd0eb8a14dfa87"
+    },
+    {
+      "path": "fashion_psp/evaluation/STATE_RISK_DP.md",
+      "bytes": 6177,
+      "sha256": "887bf11daa05e93d39a7dab343c07ffdebb99afff74b10c24114ce40aa9cd890"
+    },
+    {
+      "path": "fashion_psp/evaluation/__init__.py",
+      "bytes": 212,
+      "sha256": "e08c511daa02f9e4fc6ae007eea050dd41ae6fe3cd1eda43f5132b213b07016b"
+    },
+    {
+      "path": "fashion_psp/evaluation/analyze_dualfashion_fitb_personal_native_regret.py",
+      "bytes": 19892,
+      "sha256": "f747146f23f8234c861d5e02220de23af40a080e2388933928925d8ca81cf67b"
+    },
+    {
+      "path": "fashion_psp/evaluation/analyze_dualfashion_fitb_regret.py",
+      "bytes": 10654,
+      "sha256": "208bc7f51b7202efe3d634fa2b774b7e870aa67c8c5a7f527bdd3ffd8c30bbef"
+    },
+    {
+      "path": "fashion_psp/evaluation/analyze_dualfashion_fitb_timestep_mechanism.py",
+      "bytes": 10955,
+      "sha256": "71dbc21e176a369e88bc4c2edea59f92213975484cba477839e1a28408e02502"
+    },
+    {
+      "path": "fashion_psp/evaluation/analyze_dualfashion_gor_personal_regret.py",
+      "bytes": 8311,
+      "sha256": "fc481deaed695eedc60f62b69be940ae45c8c6ce9bc42fde99f1e8e677961fae"
+    },
+    {
+      "path": "fashion_psp/evaluation/analyze_dualfashion_training_free_psp.py",
+      "bytes": 32624,
+      "sha256": "ffc49fa22dab268e09ae5ff093d79f638e83fa7109a80961a5f1d6e17da4179a"
+    },
+    {
+      "path": "fashion_psp/evaluation/contract.py",
+      "bytes": 479,
+      "sha256": "25e85b973badd0604f7272e727dc1fb1c6b794a8f4b250e45558c0a879440c0c"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_difashion_fitb_online.py",
+      "bytes": 12726,
+      "sha256": "91cf87ebf3554441803bd750b3e40f999b05f9471c760eb2e13db208c98caa51"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_difashion_gor_native_metrics.py",
+      "bytes": 13904,
+      "sha256": "f41e244b8203377a3aa6600d7a80fc8527fc8fafa4e4d1a9bf53d34d2eb81647"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_difashion_gor_offline.py",
+      "bytes": 25476,
+      "sha256": "689bb7cdc61ebd3e8b187c012de3e00fb76b50ffe565f0ec7dbbe4246d06d413"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_difashion_gor_online.py",
+      "bytes": 16007,
+      "sha256": "9230b5e1477798d1e07ea6a7a4fa57806d9cb2cff9291da109972762ea178131"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_dualfashion_fitb_native_metrics.py",
+      "bytes": 12353,
+      "sha256": "d65ae61c86eeccd4497dc063fb6d04b27ac5f0cd0ac96dfcda6da902fcc33178"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_dualfashion_fitb_timestep.py",
+      "bytes": 22300,
+      "sha256": "fd831f5b5127d9c8d3a5e1cf7c47cc3fd4df8a419e71d8f226f630107a6a2c80"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_dualfashion_gor_greedy.py",
+      "bytes": 13736,
+      "sha256": "7f31c804ac735a94c36f322a262b8ac6d66a5b5058b425ea3bd781b8309145b8"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_dualfashion_gor_greedy_native_metrics.py",
+      "bytes": 13645,
+      "sha256": "0b50b853caa360750b955744c1687f759c448230e2d30954fa29ededbe6d1900"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_dualfashion_gor_offline.py",
+      "bytes": 27970,
+      "sha256": "97ffa482e8b3ddb4add05197edea102c666144613faff2227c91775279b77ef8"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_dualfashion_gor_trajectory_native_metrics.py",
+      "bytes": 10461,
+      "sha256": "25a92d4b6bd63bfd0379ba8d99679fdaec75bd2416368b454a509e9e5598872e"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_dualfashion_state_risk_dp.py",
+      "bytes": 11818,
+      "sha256": "de9a7924b61a4897c671bfad35fd7bb02909331f03e7197d630198a7ffc46940"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_fitb_offline_pools.py",
+      "bytes": 35942,
+      "sha256": "2e6514fe91420ec9e5d567166cdb4cebad32fafb5e34498b9d56b4bc9280ab68"
+    },
+    {
+      "path": "fashion_psp/evaluation/evaluate_six_seed_7_21_personal_regret.py",
+      "bytes": 10862,
+      "sha256": "2a46befbe84a84c98c653abea8311f58714151f58c97e4a8afc70b767c0cf54e"
+    },
+    {
+      "path": "fashion_psp/evaluation/export_difashion_gor_qualitative_examples.py",
+      "bytes": 4519,
+      "sha256": "1d3c7f275e25eb7ecc7dfd59f1886a4eee4b13cafdd2117ee5ca9190e73833cc"
+    },
+    {
+      "path": "fashion_psp/evaluation/find_difashion_gor_psp_examples.py",
+      "bytes": 5477,
+      "sha256": "023d1e0af542983d04e6839819aed9a1a927c7ae6f024d76c382d8d5ac28e86f"
+    },
+    {
+      "path": "fashion_psp/evaluation/make_dualfashion_fitb_personal_occlusion_heatmaps.py",
+      "bytes": 9040,
+      "sha256": "cf084952dc823bb6addffcbb91073ace678c3af4b655af44615c39dfc259f982"
+    },
+    {
+      "path": "fashion_psp/evaluation/make_dualfashion_fitb_timestep_case_panels.py",
+      "bytes": 7387,
+      "sha256": "2a21b3b55eab4fec0a16f3d5a334c37f0ea9522bd2cb9dc70686e9fffcbd3ed5"
+    },
+    {
+      "path": "fashion_psp/evaluation/make_dualfashion_gor_greedy_gallery.py",
+      "bytes": 8488,
+      "sha256": "49e813ebe06b55af4a364e74a21e5435087b62b08b9e6fabc2554a0edb833055"
+    },
+    {
+      "path": "fashion_psp/evaluation/materialize_dualfashion_fitb_personal_selection.py",
+      "bytes": 6824,
+      "sha256": "ce42093da65de7f149a224c6fd568d1baaa4fb95ce045b3510e76f21fa95d16a"
+    },
+    {
+      "path": "fashion_psp/evaluation/merge_dualfashion_fitb_cache_rewards.py",
+      "bytes": 3063,
+      "sha256": "edad05f2eace934ed56f257283103f08037c9c6a25c0bed8907618b8c3c147e5"
+    },
+    {
+      "path": "fashion_psp/evaluation/offline_pool_excel.mjs",
+      "bytes": 2384,
+      "sha256": "484bf212e04c9ef191900c4b822f1b577a798e4b4472ed76679604f7c4289a4f"
+    },
+    {
+      "path": "fashion_psp/evaluation/offline_pool_excel.py",
+      "bytes": 7832,
+      "sha256": "7d9f27027d2b5239efe817be10dcaecd2f02c281f4309275a74f77214d3acc60"
+    },
+    {
+      "path": "fashion_psp/evaluation/plot_dualfashion_fitb_grid_search_16seed.py",
+      "bytes": 21449,
+      "sha256": "b07191f9f5a9aadcb4c85b0bb173548b08309271f4de5b81e1a516796444e137"
+    },
+    {
+      "path": "fashion_psp/evaluation/plot_dualfashion_fitb_personal_pruning_schedules.py",
+      "bytes": 7634,
+      "sha256": "5ca322724b2f1893e58b97f091c5097a4227ec0bebe58cb174b79c1730450e9d"
+    },
+    {
+      "path": "fashion_psp/evaluation/plot_dualfashion_fitb_timestep_heatmaps.py",
+      "bytes": 7980,
+      "sha256": "6b6d4868f1c3f6055f4de90f7b07ac016402f3070a8206fc46e873bab38c8c29"
+    },
+    {
+      "path": "fashion_psp/evaluation/research_dualfashion_risk_budget.py",
+      "bytes": 24793,
+      "sha256": "3aca4798958f26fa687de0b0388e9542c775b2cfa25048b73248004bd467ec57"
+    },
+    {
+      "path": "fashion_psp/evaluation/research_dualfashion_state_risk_dp.py",
+      "bytes": 17956,
+      "sha256": "82915985c6381ff4ee665c02cbc4b1c6e69d01ea89e73820b5e3974755e67dd5"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_difashion_fitb_offline_pool_metrics.ps1",
+      "bytes": 1665,
+      "sha256": "b50afe6abd3482a4e76604e188d040aa3b1914a817b9f11fe2ceb032339faff5"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_fitb_comp_native_metrics.ps1",
+      "bytes": 5088,
+      "sha256": "8c8b84a5e8e8584498210f6e475d5bf1dc0e47760810f3ce8d214c8b4de81004"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_fitb_grid_search_16seed.ps1",
+      "bytes": 1358,
+      "sha256": "f71304b741d5aed23a0061c9cc0bba21c6e21da23ed7ebc0efc974b9a70bf459"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_fitb_offline_pool_metrics.ps1",
+      "bytes": 1681,
+      "sha256": "235689c6f68086b3f84664c2179766c9b46c7f651d644a35ee1c849db0e7de43"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_fitb_pcar.ps1",
+      "bytes": 4125,
+      "sha256": "340708fd0c94594aed2e05d29bbdf6618e95471ffedd1eda5177da6b17aec617"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_fitb_terminal_regret.ps1",
+      "bytes": 1470,
+      "sha256": "95ef33767af5a00753b4db5b5c1b87588ca1a56cea42e1b5880a792da9820e12"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_fitb_timestep200_personal.ps1",
+      "bytes": 1501,
+      "sha256": "3cf4ae0b04ff5b442ef376c978651ee92c501057d8f28f79a9a3dd446031d913"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_gor_cross_validation.ps1",
+      "bytes": 1995,
+      "sha256": "308c634f0b36c9b398d9e82702545e7c650b5a94c7cb1b3ff7dbd5f9bf2321e0"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_gor_greedy_evaluation.ps1",
+      "bytes": 1376,
+      "sha256": "0acf06c8436e3fdb937005c4ec9e4650cf04d5dd21ca21250d03a9d88c869ebd"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_gor_greedy_native_metrics.ps1",
+      "bytes": 1508,
+      "sha256": "9b1d2b9db64917950f25eb2fc1e6bf4d40f71152c454d4a9545263168b6b987b"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_gor_greedy_personal.ps1",
+      "bytes": 2116,
+      "sha256": "f2d6c61009e73f04ed77c45c0d7b333581aff5086b3c93044f99a6346df8fdd8"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_gor_six_seed_native_metrics.ps1",
+      "bytes": 1505,
+      "sha256": "dc6c35eb153cd54a8dcb38ceee64934a3b831424abe8bcc7e5b79dd1d6b50ff9"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_gor_trajectory_native_metrics.ps1",
+      "bytes": 1368,
+      "sha256": "94849a06309215fb5a70d39d01b18ec3bf47bf707bcf31865418dc2fc941bd0d"
+    },
+    {
+      "path": "fashion_psp/evaluation/run_dualfashion_state_risk_dp.ps1",
+      "bytes": 2312,
+      "sha256": "0a5d46716e3be01e21d703c0b35976e433a0beeac92e258f351559bc7d9fb5ae"
+    },
+    {
+      "path": "fashion_psp/evaluation/score_dualfashion_fitb_cache_rewards.py",
+      "bytes": 7986,
+      "sha256": "87c3dcb626fb961294105423df9425169d9a11027ce22755885687420f747492"
+    },
+    {
+      "path": "fashion_psp/evaluation/score_dualfashion_fitb_terminal_gt.py",
+      "bytes": 13145,
+      "sha256": "7400bb97c8c0910a6fe0280163a6f563179cdac74c45e9884dcb0e1bb8f6ca62"
+    },
+    {
+      "path": "fashion_psp/evaluation/search_dualfashion_fitb_timestep_strategies.py",
+      "bytes": 15050,
+      "sha256": "fbe547766ccc9ff484930152b522b766ce69e0d2ee524f0caaceb888300a06f0"
+    },
+    {
+      "path": "fashion_psp/evaluation/summarize_difashion_psp6_regret.py",
+      "bytes": 12650,
+      "sha256": "3fa12e00f9121a751e071151e14c3926f1dc46ac5312815d3de0e695eeaf7402"
+    },
+    {
+      "path": "fashion_psp/evaluation/summarize_dualfashion_fitb_pcar.py",
+      "bytes": 3757,
+      "sha256": "554f6e939a1ab0cc8820223d4a16ab87d24a6f708b46603a4c58f70fcb2fa1ca"
+    },
+    {
+      "path": "fashion_psp/evaluation/summarize_dualfashion_gor_personal_native_metrics.py",
+      "bytes": 3631,
+      "sha256": "57ae8fbae0eec8928273a71420a0f80b3d8b054d3ebcedb5905cc5e896fd718f"
+    },
+    {
+      "path": "fashion_psp/evaluation/summarize_gap_budget_online_metrics.py",
+      "bytes": 14264,
+      "sha256": "ffb1f2f8866537d03e92cd10bcdd17cdf3e903c3436c6285c075e46ed5a6535b"
+    },
+    {
+      "path": "fashion_psp/evaluation/test_offline_pool_metrics.py",
+      "bytes": 5377,
+      "sha256": "b50c15128ba3b2455ebc6e9539e1ce5239b3675e8f075fa1058cffbdf5453942"
+    },
+    {
+      "path": "fashion_psp/evaluation/test_risk_budget.py",
+      "bytes": 3935,
+      "sha256": "62bf47b7d27decfca0e2a516185c619ec145ff3602d982c4d43b59177de5d3d5"
+    },
+    {
+      "path": "fashion_psp/evaluation/test_state_risk_dp.py",
+      "bytes": 3301,
+      "sha256": "f00c3feb1a283447e245f28cd54f6fdc506aa4e9ab14dec8578db94c706d459b"
+    },
+    {
+      "path": "fashion_psp/evaluation/test_training_free_psp.py",
+      "bytes": 2267,
+      "sha256": "f711e97a78129d686df6d161424799b1f286e58e4fff47128b0030e12d033636"
+    },
+    {
+      "path": "fashion_psp/experiments/ADAPTIVE_PERSONAL_DEVELOPMENT_SEARCH.md",
+      "bytes": 5352,
+      "sha256": "a61fd6c5d7322876d9486d5c11d174e5b9362815cf75d5110a40ec6ce2876344"
+    },
+    {
+      "path": "fashion_psp/experiments/ADAPTIVE_PERSONAL_ONLINE_INFERENCE.md",
+      "bytes": 2133,
+      "sha256": "5ca8be3f5e121af8ef184fd9c6498c4bfe6632890a99b9299d5a3344d2291eb8"
+    },
+    {
+      "path": "fashion_psp/experiments/ADAPTIVE_PERSONAL_REPLAY.md",
+      "bytes": 4668,
+      "sha256": "d58aa4ba2ce4c250d07df71b0c822ec4851ffa8510669cd6e9644e621df85e46"
+    },
+    {
+      "path": "fashion_psp/experiments/DIFASHION_SIX_SEED_ONLINE.md",
+      "bytes": 5908,
+      "sha256": "cd9ac2caa222e090da062b79a61bdeac2a96463a55556fc4e0a31a1b88a0fd90"
+    },
+    {
+      "path": "fashion_psp/experiments/FULLY_ADAPTIVE_PSP.md",
+      "bytes": 5043,
+      "sha256": "4afd9764fa1046e0faa6989bbda6e2388074451832df74762ff932715f9515a0"
+    },
+    {
+      "path": "fashion_psp/experiments/GAP_BUDGET_PSP.md",
+      "bytes": 2498,
+      "sha256": "c25d5ce6011fe2ea46befcdbb4014c2dda387883ed5b5330371f5abe623f6630"
+    },
+    {
+      "path": "fashion_psp/experiments/PERSONAL_RESEARCH_PROTOCOL.md",
+      "bytes": 9008,
+      "sha256": "f8c7abf6aa21fb5d075402b35c43f639f006ddcfba1242b9749d2d0be7c086ed"
+    },
+    {
+      "path": "fashion_psp/experiments/README.md",
+      "bytes": 8708,
+      "sha256": "1d61b2f8164d2c5ca8bdfcf9c143acf5ce0ae24ff9e2c4871212776afb07c5be"
+    },
+    {
+      "path": "fashion_psp/experiments/SIX_SEED_7_21_ONLINE_INFERENCE.md",
+      "bytes": 3390,
+      "sha256": "b2418d3a46fe7f4cba6cc879b348f851cd1133e41cb32f602a19a4b0acd968a1"
+    },
+    {
+      "path": "fashion_psp/experiments/SPARSE_PERSONAL_ONLINE_INFERENCE.md",
+      "bytes": 2985,
+      "sha256": "175080ed080523007a10f1f1d1cd9c31e65349385c7319062053768969ce33dc"
+    },
+    {
+      "path": "fashion_psp/experiments/analyze_gap_budget_psp.py",
+      "bytes": 7755,
+      "sha256": "5111549ac54deb9a73d3d65309510c2d1c39a5cff0282fd2a0b780642fd257a4"
+    },
+    {
+      "path": "fashion_psp/experiments/diagnose_late_personal_case.py",
+      "bytes": 9992,
+      "sha256": "2a6f4b60b90c87985e98752846b6b815fa86fe03a80e5078cd85dcdfb043e915"
+    },
+    {
+      "path": "fashion_psp/experiments/diagnose_personal_test_difficulty.py",
+      "bytes": 12605,
+      "sha256": "6502cdc5915ffed6a74ca71d59b04bdffca96c41f821488b74d3a1843d1881bb"
+    },
+    {
+      "path": "fashion_psp/experiments/evaluate_preference_image_alignment.py",
+      "bytes": 6799,
+      "sha256": "e45f9f2b50d6c3bf2bc74951e5b494b1013917665f67c4ae0c6ad9a9aac58a3c"
+    },
+    {
+      "path": "fashion_psp/experiments/freeze_deferred_boundary_psp.py",
+      "bytes": 1494,
+      "sha256": "5e940e329ae67247c2e105a8de3ffd7e1115eedcc14961ca8357ab0f43dce12a"
+    },
+    {
+      "path": "fashion_psp/experiments/freeze_fixed_six_seed_7_21.py",
+      "bytes": 1199,
+      "sha256": "0e91bf1dc3fa4b17bcdf3e12b9b0d319354456a5cd7938233369ff2df7296022"
+    },
+    {
+      "path": "fashion_psp/experiments/freeze_fully_adaptive_psp.py",
+      "bytes": 1287,
+      "sha256": "3842a34a213f42de67295187f48288d87901cb7623ab8a1cda917c0d2d86f175"
+    },
+    {
+      "path": "fashion_psp/experiments/inspect_fully_adaptive_synthetic.py",
+      "bytes": 2648,
+      "sha256": "dcd7c09e6695d595a4e172a26aefe12f1f26bcfa7a1e8acbf4fa980a0c91dca5"
+    },
+    {
+      "path": "fashion_psp/experiments/offline_cache_workers.py",
+      "bytes": 2318,
+      "sha256": "3bbdfa7d1dd27b1dfefaedaa605539f07710e6a895b0ab56e47fbf12eb3e42ee"
+    },
+    {
+      "path": "fashion_psp/experiments/replay_dualfashion_fitb_adaptive_personal.py",
+      "bytes": 23441,
+      "sha256": "223d8b545428a539322fddc70408ba00df90548681099a1c03d0ada0a6d48a03"
+    },
+    {
+      "path": "fashion_psp/experiments/replay_gap_budget_psp.py",
+      "bytes": 8451,
+      "sha256": "7adf9369c99dd1af2e0bbb17b74fabe72dd190d81fc799bd48af340eef377ef0"
+    },
+    {
+      "path": "fashion_psp/experiments/replay_six_seed_14.py",
+      "bytes": 8980,
+      "sha256": "67cfc9de46ee90819abb092245f26cea64514e77b7b387dc5bba4e1c58e099a0"
+    },
+    {
+      "path": "fashion_psp/experiments/replay_six_seed_7_21.py",
+      "bytes": 8722,
+      "sha256": "6a80faaa1845c79fb8b7a30f07d3b1cf33d550d619e93a361ca4114c0a4d3029"
+    },
+    {
+      "path": "fashion_psp/experiments/run_difashion_fitb_16seed_offline_cache.ps1",
+      "bytes": 2852,
+      "sha256": "ddcdee9fd8aea52277b29b5123cb8b9a4083568aaf6e0efc3cdb86fbd22edcdc"
+    },
+    {
+      "path": "fashion_psp/experiments/run_difashion_fitb_16seed_offline_cache.py",
+      "bytes": 19992,
+      "sha256": "21730c3cfa8393f3802ff71acf5574652314c65bc4fce7320b97d1f3bace850a"
+    },
+    {
+      "path": "fashion_psp/experiments/run_difashion_fitb_six_seed.py",
+      "bytes": 21932,
+      "sha256": "c3c4abae50dd75c2929be190e188ff88f00c885a1f919245a0f2572c5baaf481"
+    },
+    {
+      "path": "fashion_psp/experiments/run_difashion_gor_six_seed.py",
+      "bytes": 32553,
+      "sha256": "1c6e9c53621b6847b6b23ead03044d59af00b812dff4823a6487518bdf4d0e3f"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_16seed_offline_cache.ps1",
+      "bytes": 4563,
+      "sha256": "a9e56be534f81e1854593fdc51c269e905140732f7eef08913d9605a94db553c"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_adaptive_personal.ps1",
+      "bytes": 1680,
+      "sha256": "c2131449ddab0ba35f4a0d360a27ff1411a7f801be92fcc7c2e8b359b8fd5132"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_adaptive_personal.py",
+      "bytes": 26867,
+      "sha256": "62ba1a80bc52b051998e50f7fceb43b3fcf880f1dd8c8413b8c79b09700a5863"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_deferred_boundary.py",
+      "bytes": 4786,
+      "sha256": "5ab1538986e119f44ebbea3fbb0030aabd2674d07b73c3d6cb78703d784c97de"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_fully_adaptive.py",
+      "bytes": 3019,
+      "sha256": "6d4c43816cac2b307c9a75de14177c792a903dcfd953028b6899c80ae07559c7"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_gap_budget.py",
+      "bytes": 3157,
+      "sha256": "90973691b62b3662e1804a7904c8a13e2c3fa876361eec6a6af5cddc1743b6bb"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_rewrite.ps1",
+      "bytes": 1721,
+      "sha256": "323e3484dbfc6f71ed02c3c0bb453b8fd8d690a959680344858644bf076697de"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_rewrite.py",
+      "bytes": 25754,
+      "sha256": "8d13b7398be65b05d5e93f7a8dd120418a54441c438d04b9c3be1542282cf82a"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_six_seed_7_21.ps1",
+      "bytes": 1633,
+      "sha256": "b376b5ea201b809bf4194658c41faf99e624c261514cad0d4c0411451ffb9307"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_six_seed_7_21.py",
+      "bytes": 3707,
+      "sha256": "3d285a956f6f4d408fe5b3314e96b88d8625ebbe18e252c1e4707bfaad84b115"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_sparse_personal.ps1",
+      "bytes": 1658,
+      "sha256": "a3a4616046c4ef732e95597cbf83a5810e742e2d5b6104f658fd6941f9877384"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_sparse_personal.py",
+      "bytes": 3619,
+      "sha256": "36b42a902cd0611440751eca99fc951e08676969fffce79cbdf9c00efe3007ec"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_state_dp.ps1",
+      "bytes": 1611,
+      "sha256": "c15627d9ee58ca9d73a97d16a564c6d19b599683a4dbfd5eeec9f02a0bdda9c9"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_fitb_state_dp.py",
+      "bytes": 21614,
+      "sha256": "b54ea23ec46016c5e5ccfe0cb61d20bfcd2568a586bc03670d7808d91268e35f"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_gor_six_seed_7_21.ps1",
+      "bytes": 2260,
+      "sha256": "1ca0cfb4db75c868c8b29ed79476daaf2307d2d2ae96ad9841d7f65e94c83e59"
+    },
+    {
+      "path": "fashion_psp/experiments/run_dualfashion_terminal_personal.ps1",
+      "bytes": 2492,
+      "sha256": "ad39ef1e08ab126aa092c8a03b63f9a95af945c401985d1b457ee90c03fd66af"
+    },
+    {
+      "path": "fashion_psp/experiments/search_adaptive_personal_development.py",
+      "bytes": 22285,
+      "sha256": "c6166f23e870948d5a1e9a05bf7092a2727a3dc824d53c02233600881787c511"
+    },
+    {
+      "path": "fashion_psp/experiments/search_sparse_personal.py",
+      "bytes": 16643,
+      "sha256": "71ced6f70ce986bd33f66b8178afd23a4799fc4728b959c021a37405e50b0498"
+    },
+    {
+      "path": "fashion_psp/experiments/terminal_personal_README.md",
+      "bytes": 7987,
+      "sha256": "8679229a245eac6e52b5a10322746c7e3158dfe72c4c242fe339c7b88a98f42f"
+    },
+    {
+      "path": "fashion_psp/experiments/test_deferred_boundary_online.py",
+      "bytes": 3028,
+      "sha256": "55bbbdb501e4a9c5f37fe428bf3e6f176494e7b5808c003147a0b3721afdcce9"
+    },
+    {
+      "path": "fashion_psp/experiments/test_deferred_boundary_psp.py",
+      "bytes": 4391,
+      "sha256": "e533f99706bd08406341c5623bff7dab8090e5a9d4b40d46ae8880c100e546ec"
+    },
+    {
+      "path": "fashion_psp/experiments/test_difashion_fitb_offline_cache.py",
+      "bytes": 4176,
+      "sha256": "3ad8b2ea306f03ed1b2fd3a0c5d53e7580c9fc44c4c912ad431769d4052d1ea7"
+    },
+    {
+      "path": "fashion_psp/experiments/test_difashion_segmented_psp.py",
+      "bytes": 7739,
+      "sha256": "54cb54bff1364b64b3c0826e7c00e09f40113d7c20d168cf7058e1d234c25585"
+    },
+    {
+      "path": "fashion_psp/experiments/test_dual_budget_feasibility.py",
+      "bytes": 2222,
+      "sha256": "7f222ec02db8c8002a92865487a2442935312825a5a8dc41f47bcecbe1a3a872"
+    },
+    {
+      "path": "fashion_psp/experiments/test_dualfashion_fitb_adaptive_online.py",
+      "bytes": 2290,
+      "sha256": "bf8edd58413fdaff68f7b8e178bafc6108cc3f2e217eeb3853c5ea724af321ac"
+    },
+    {
+      "path": "fashion_psp/experiments/test_dualfashion_fitb_offline_concurrency.py",
+      "bytes": 6565,
+      "sha256": "944fdd28b1a01b507417741e0a4f6ff543e87460e8b6c435cf919a5d096c34e2"
+    },
+    {
+      "path": "fashion_psp/experiments/test_dualfashion_fitb_state_dp.py",
+      "bytes": 2805,
+      "sha256": "fe017f5607cb9f632b58f554e9364f303ba874898842af700d086fdc1249cd46"
+    },
+    {
+      "path": "fashion_psp/experiments/test_fully_adaptive_psp.py",
+      "bytes": 7909,
+      "sha256": "c0cba93c4efbb70469c4aa24df3f0880704e12c2b3ed31357b78eb8295435382"
+    },
+    {
+      "path": "fashion_psp/experiments/test_gap_budget_online.py",
+      "bytes": 2934,
+      "sha256": "3cffd9719db34ed4048215d8ad85aee9838264f86a29a0dfd46dad0206ae60fd"
+    },
+    {
+      "path": "fashion_psp/experiments/test_gap_budget_psp.py",
+      "bytes": 2126,
+      "sha256": "9cbffc253890a42d429ad0dcbdb1c8b41fd66c151276ac017d4790878ef8736a"
+    },
+    {
+      "path": "fashion_psp/experiments/test_personal_test_difficulty.py",
+      "bytes": 1830,
+      "sha256": "2951a21a21e0c869fefe5ad113747018ab8d62fdeacee435a736279e1ef17921"
+    },
+    {
+      "path": "fashion_psp/experiments/test_replay_dualfashion_fitb_adaptive_personal.py",
+      "bytes": 4195,
+      "sha256": "c3c20346124e03344df0071d67d650a08c4702d049ed55e083c4d338c446bce1"
+    },
+    {
+      "path": "fashion_psp/experiments/test_search_adaptive_personal_development.py",
+      "bytes": 3520,
+      "sha256": "f0a3315fd31339ff5d1f43c7909022d5888c49d37d298968aa8bbcfbd652cb48"
+    },
+    {
+      "path": "fashion_psp/experiments/test_six_seed_7_21_online.py",
+      "bytes": 5540,
+      "sha256": "c40bde595e2594a3ad941e154893166815ab69c863aa8cd6b869e3e9b28e51ed"
+    },
+    {
+      "path": "fashion_psp/experiments/test_sparse_personal.py",
+      "bytes": 5659,
+      "sha256": "27b3673ce9e0110e1511e5d0f946e39c742f0cf4ede4d99257a8354c2968dd53"
+    },
+    {
+      "path": "fashion_psp/experiments/tests/test_terminal_personal.py",
+      "bytes": 4450,
+      "sha256": "c63aeac5f5c7aad743ca337ecad77eea4072a045f54f977ff0490953f5358706"
+    },
+    {
+      "path": "fashion_psp/experiments/train_dualfashion_terminal_personal.py",
+      "bytes": 25375,
+      "sha256": "f1c644edffc28d2e7a93cb73b1253ca239599da486936472d6d30b1eba8f1ffb"
+    },
+    {
+      "path": "fashion_psp/experiments/verify_sparse_personal_artifacts.py",
+      "bytes": 2663,
+      "sha256": "7637e6d4f76e8fdfe869dc32c70a123aab68b4711e764d10f725298f64dff429"
+    },
+    {
+      "path": "fashion_psp/rewards/__init__.py",
+      "bytes": 169,
+      "sha256": "38ff103663603ec6453bdd92818b867db61f1de0b52b01b80f61a73dd3c9d24f"
+    },
+    {
+      "path": "fashion_psp/rewards/registry.py",
+      "bytes": 789,
+      "sha256": "33bb091620ab8630e5ed6f23a911307f593f4bc890a1b9f5ddd06e77818cd707"
+    },
+    {
+      "path": "fashion_psp/rewards/train_pcar.py",
+      "bytes": 22342,
+      "sha256": "9c4a21a0699a9cd6b59d781b34a049887311b32dae5c66d55bc51ac8dd707bc4"
+    },
+    {
+      "path": "fashion_psp/search/__init__.py",
+      "bytes": 341,
+      "sha256": "0ffd6e071e54235356805a242cf7756762caebc5bc2e563a73e8b3b680a4ae92"
+    },
+    {
+      "path": "fashion_psp/search/deferred_boundary_psp.py",
+      "bytes": 6268,
+      "sha256": "9718b2acfa746ec62dcdc66b84d8385bb1878b57a97d8f48f8117ec54be4b6a2"
+    },
+    {
+      "path": "fashion_psp/search/dual_budget_feasibility.py",
+      "bytes": 2807,
+      "sha256": "d6e0011fb07403f2d2164d8ccebda3d8364b920edc1b664dc55ed037d687de60"
+    },
+    {
+      "path": "fashion_psp/search/fixed_six_seed_psp.py",
+      "bytes": 1207,
+      "sha256": "f6b17d91b1f3b98a46acf084479a6c30ea2484615f6b081938e23830966ce0ff"
+    },
+    {
+      "path": "fashion_psp/search/fully_adaptive_psp.py",
+      "bytes": 10990,
+      "sha256": "93dbf90267490d9df999d2082f7abf8913f00d99bcb80091a281f8f61fb494b6"
+    },
+    {
+      "path": "fashion_psp/search/gap_budget_psp.py",
+      "bytes": 4342,
+      "sha256": "dd37f8943d266222861fc7932cf7818d7d7902527285e7dca423bc71f4bc6ad6"
+    },
+    {
+      "path": "fashion_psp/search/psp.py",
+      "bytes": 1115,
+      "sha256": "15e3a67737500faaac947277714e4faf7eb2b262a6c2233c6eee5706b6f67f90"
+    },
+    {
+      "path": "fashion_psp/search/schedule.py",
+      "bytes": 1128,
+      "sha256": "fd4f02319e70bd3cb5546a57d2d4aff3ba5a8ab33506382e3fe82887c31e1981"
+    },
+    {
+      "path": "fashion_psp/search/seed_pool.py",
+      "bytes": 886,
+      "sha256": "48fe7097ce60cf660a1e2a32177c75a0fd4d7c40f38855a2cebf2e8962018063"
+    },
+    {
+      "path": "fashion_psp/search/terminal_personal.py",
+      "bytes": 6538,
+      "sha256": "0dc4f0bad4d209a508179135a66222eecad18bea315fefc8f03b1ef5001c2bbf"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 392,
+      "sha256": "bf2b38797dab1dede54db29625d42f829b7025685a68769549df4ef16b539fa3"
+    },
+    {
+      "path": "scripts/prepare_github_upload.py",
+      "bytes": 6958,
+      "sha256": "6eeff03b70eac9a2e825d7d258b87bc53f583a4c0d0d6b3a9d99026a9559ac2f"
+    },
+    {
+      "path": "scripts/publish_github.ps1",
+      "bytes": 7515,
+      "sha256": "da8a3bda133b4a7c539ede4ef060009ebb0d776b3e5b4318adf33c54a4dc0adc"
+    }
+  ]
+}
